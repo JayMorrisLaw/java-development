@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StringSpawner {
     public static void main(String[] args) {
 // creating and using string builder. use when you are making many changes to the string
@@ -15,6 +17,16 @@ public class StringSpawner {
 
         String mySkills = skills.toString();
         System.out.println(mySkills);
+// ADDRESS BUILDER PRACTICE
+    }
+
+}
+class AddressBuilder {
+    public static void main(String[] args) {
+        
+
+
+
 
     }
 
