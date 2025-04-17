@@ -23,11 +23,28 @@ public class StringSpawner {
 }
 class AddressBuilder {
     public static void main(String[] args) {
-        
+        Scanner myscanner = new Scanner(System.in);
+        System.out.println("please enter your first name: ");
+        String firstName = myscanner.nextLine();
 
+        System.out.println(" enter your full name : ");
+        String fullName = myscanner.nextLine();
+
+        String WholeName = fullName;
+
+        System.out.println("your name is: " + WholeName);
+    }
+
+}
+// breaking a program into classes , OOP(object oriented programming) and more
+
+public class Main {
+    public static void main(String[] args) {
+        Person firstperson = new Person( "ray", 55 );
+        Person secondPerson = new Person();
+        Person secondPersonn = new Person();
 
 
 
     }
-
 }
