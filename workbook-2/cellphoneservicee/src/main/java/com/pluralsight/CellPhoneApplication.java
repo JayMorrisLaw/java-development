@@ -51,13 +51,11 @@ public class CellPhoneApplication {
         System.out.println("phone number: "+ cellPhone1.getPhoneNumber());
         System.out.println("owner: "+ cellPhone1.getOwner());
 // 7 done
+    }
+    public class Cellphoneclass2 {
+        public static void main(String[] args) {
 
 
-
-
-
-
-
-
+        }
     }
 }

@@ -1,21 +1,20 @@
 package com.pluralsight;
-// cellphone class step 1, create a constructor and make a cellphone
+
 public class CellPhone {
     private int serialNumber;
-    private String phoneModel;
+    private String model;
     private String carrier;
     private String phoneNumber;
     private String owner;
 
-
-    // 2 set phone attributes,     each attribute gets a setter and a getter
     public CellPhone() {
-        this.serialNumber = 0;
-        this.phoneModel = "";
-        this.carrier = "";
-        this.phoneNumber = "";
-        this.owner = "";
-// 3 create getters and setters using right click generate select all ,  getter retrieves info setter updates info, these will run in the main class
+        serialNumber = 0;
+        model = "";
+        carrier = "";
+        phoneNumber = "";
+        owner = "";
+
+
     }
 
     public int getSerialNumber() {
@@ -26,12 +25,12 @@ public class CellPhone {
         this.serialNumber = serialNumber;
     }
 
-    public String getPhoneModel() {
-        return phoneModel;
+    public String getModel() {
+        return model;
     }
 
-    public void setPhoneModel(String phoneModel) {
-        this.phoneModel = phoneModel;
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public String getCarrier() {
@@ -46,8 +45,8 @@ public class CellPhone {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNUmber) {
-        this.phoneNumber = phoneNUmber;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getOwner() {
@@ -57,7 +56,10 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
 
-
+// creating a method dial is the method here, dial the phonenumber
     }
-}
+    public void dial(String phoneNumber){
+        System.out.println("\n"+ owner + " phone is calling: " + phoneNumber);
+    }
 
+}
