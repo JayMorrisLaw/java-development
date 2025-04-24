@@ -5,6 +5,12 @@ public class myApplication {
 // using a scanner to print interactive messages
         Scanner scanner = new Scanner(System.in);
 
+
+
+
+
+
+
         System.out.println(" enter your name ");
         String name =  scanner.nextLine();
 
