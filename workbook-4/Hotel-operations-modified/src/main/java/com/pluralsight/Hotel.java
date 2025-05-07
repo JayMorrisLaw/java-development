@@ -48,7 +48,6 @@ public class Hotel {
     public int getAvailableRooms(){
         return numberOfRooms - bookedBasicRooms;
     }
-    /* commented out solution below
 
     public boolean bookRoom(int numberOfRooms, boolean isSuite){
         if (numberOfRooms <= 0){
