@@ -2,7 +2,7 @@ package com.pluralsight;
 
 public class NameFormatter {
 
-    public NameFormatter() {
+    private NameFormatter() {
     }
 
     public static String format(String firstName, String lastName){
