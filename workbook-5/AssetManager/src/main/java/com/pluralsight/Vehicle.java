@@ -42,6 +42,6 @@ public class Vehicle extends Asset {
 
     @Override
     public double getValue() {
-        return super.getValue();
+      if ()
     }
 }

@@ -52,6 +52,25 @@ public class House extends Asset{
 
     @Override
     public double getValue() {
-        return super.getValue();
+        double ratePerSqft = 0;
+
+        switch (condition){
+            case 1:
+                ratePerSqft = 180.0;
+                break;
+            case 2:
+                ratePerSqft = 130.0;
+                break;
+            case 3:
+                ratePerSqft = 90.0;
+                break;
+            case 4:
+                ratePerSqft = 80.0;
+                break;
+        }
+        double baseValue = squareFoot * ratePerSqft;
+        double lotValue = lotSize * 0.25;
+        return baseValue + lotValue;
+
     }
 }
