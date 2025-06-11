@@ -1,5 +1,6 @@
 package com.pluralsight;
 import java.sql.*;
+import java.sql.Connection;
 
 public class main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
